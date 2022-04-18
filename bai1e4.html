@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="inra"></p>
+<script>
+    let a=parseInt(prompt("nhập vào cạnh a"))
+    let b=parseInt(prompt("nhập vào cạnh b"))
+    let c=parseInt(prompt("nhập vào cạnh c"))
+    if (a+b>c&& a+c>b&& b+c>a) {
+        if (a**2+b**2==c**2||a**2+c**2==b**2||b**2+c**2==a**2)
+        document.getElementById("inra").innerText=" là 3 cạnh của tam giác vuông"
+        else document.getElementById("inra").innerText="Không phải là 3 cạnh của tam giác vuông"}
+    else document.getElementById("inra").innerText=" không phải là 3 cạnh của tam giác"
+</script>
+
+</body>
+</html>

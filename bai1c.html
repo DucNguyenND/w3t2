@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="inra"></p>
+<script>
+    let a=parseInt(prompt("Nhập vào a"))
+    let b=parseInt(prompt("Nhập vào b"))
+    let sum=0
+    if (a<=b){
+    while (a<=b) {
+        sum+=a;
+        a++
+    }}
+    else {
+    while (b<=a){
+        sum=sum+b;
+        b++
+    }}
+    document.getElementById("inra").innerText= "Tổng từ a đến b là:" + sum
+</script>
+</body>
+</html>
